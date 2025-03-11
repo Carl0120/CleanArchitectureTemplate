@@ -6,12 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Aggregates\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Rop" Version="1.0.0" />
-    </ItemGroup>
-
 </Project>

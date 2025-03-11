@@ -1,6 +1,6 @@
 namespace Core.Abstractions;
 
-public abstract class ValueObject
+public abstract class ValueObjectBase
 {
 
 }

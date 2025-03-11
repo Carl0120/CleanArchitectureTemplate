@@ -7,11 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Aggregates\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Rop" Version="1.0.0" />
+      <ProjectReference Include="..\src\Core\Core.csproj" />
     </ItemGroup>
 
 </Project>
