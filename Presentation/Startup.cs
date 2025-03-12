@@ -15,4 +15,10 @@ public static class Startup
     {
         return typeof(Startup).Assembly;
     }
+    
+    public static class PresentationProject
+    {
+        public static Assembly Assembly => typeof(Startup).Assembly;
+    
+    }
 }

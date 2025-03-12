@@ -14,9 +14,14 @@ public static class Startup
 
         return services;
     }
-
     public static Assembly GetApplicationAssembly()
     {
         return typeof(Startup).Assembly;
     }
+}
+
+public static class ApplicationProject
+{
+    public static Assembly Assembly => typeof(Startup).Assembly;
+    
 }

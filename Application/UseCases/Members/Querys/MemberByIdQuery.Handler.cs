@@ -1,8 +1,7 @@
-using Application.Abstractions;
 using Application.Abstractions.QueryAndCommand;
 using Rop.Result;
 
-namespace Application.UseCases.Members;
+namespace Application.UseCases.Members.Querys;
 
 public class MemberMyIdQueryHandler :IQueryHandler<MemberByIdQuery,string>
 {

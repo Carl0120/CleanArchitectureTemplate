@@ -17,8 +17,4 @@
       <PackageReference Include="Rop" Version="1.0.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Abstractions\Validations\" />
-    </ItemGroup>
-
 </Project>

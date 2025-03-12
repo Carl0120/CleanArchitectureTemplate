@@ -1,7 +1,7 @@
 using MediatR;
 using Rop.Result;
 
-namespace Application.UseCases.Members;
+namespace Application.UseCases.Members.Commands;
 
 public class MemberCreateCommandHandler : IRequestHandler<MemberCreateCommand,ResultAction<int>>
 {

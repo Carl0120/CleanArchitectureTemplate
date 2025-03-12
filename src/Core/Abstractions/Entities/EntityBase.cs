@@ -1,6 +1,6 @@
-namespace Core.Abstractions;
+namespace Core.Abstractions.Entities;
 
-public abstract class EntityBase<TId>
+public abstract class EntityBase<TId> : IEntity
 {
     public TId Id { get; init; }
 
